@@ -1,4 +1,5 @@
 *.pth
 __pycache__
 *.t7
-results/
+results
+src/

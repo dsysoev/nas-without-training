@@ -5,19 +5,10 @@ For the [original version of the paper](https://arxiv.org/abs/2006.04647v1), ref
 
 ## Usage 
 
-Create a virtual environment 
-
-- Using conda
+Create a conda environment using the env.yml file
 
 ```bash
 conda env create -f env.yml
-```
-
-- Or Using [poetry](https://python-poetry.org/)
-
-```bash 
-python3.7 -m pip install poetry
-python3.7 -m poetry shell
 ```
 
 Activate the environment and follow the instructions to install
@@ -25,9 +16,7 @@ Activate the environment and follow the instructions to install
 Install nasbench (see https://github.com/google-research/nasbench)
 
 Download the NDS data from https://github.com/facebookresearch/nds and place the json files in naswot-codebase/nds_data/
-
 Download the NASbench101 data (see https://github.com/google-research/nasbench)
-
 Download the NASbench201 data (see https://github.com/D-X-Y/NAS-Bench-201)
 
 Reproduce all of the results by running 
